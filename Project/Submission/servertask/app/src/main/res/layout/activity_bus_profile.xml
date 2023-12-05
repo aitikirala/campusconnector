@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- If I had more time, I would have tried to implement a profile picture -->
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/BusHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the Business Home page"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/ResponseTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Description"
+        android:visibility="gone" />
+
+    <Button
+        style="@style/ButtonTheme"
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Description"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/ResponseTextViewId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Enter Services"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter services in a comma separated list: e.g. Pedicure - $25, Manicure - $10"
+        android:visibility="gone" />
+
+    <Button
+        style="@style/ButtonTheme"
+        android:id="@+id/editServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Services"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+
+</LinearLayout>
