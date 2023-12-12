@@ -31,44 +31,38 @@ The app was conceptualized to bridge the gap between student business owners see
 
 #### Mentorship and Coursework
 
-- **Mentorship:** Guidance was sought from Professor Herve, an experienced professional in the field.
-- **Education:** Enrolled in CMSC436 to deepen understanding of Kotlin, database functionality, and UI design.
+- **Mentorship:** Guidance was sought from Professor Herve, an experienced professional in the field who has taught courses related to Database Design and Kotlin Mobile Application Development.
+- **Education:** Enrolled in CMSC436 to deepen understanding of Kotlin functionalities and UI design.
+- **Research:** Have reviewed many sources related to PHP and SQL concepts.
 
 #### Tools and Strategy
 
 - **Technology Used:** Key tools and languages employed included Kotlin for app development, SQL for database management, and PHP for server-side scripting.
+- **Environment:** Android Studio IDE.
 - **Mentor Consultations:** Regular sessions with Professor Herve provided invaluable insights.
 
 ## Outcome of the Study
 
 ### Final Product Features
 
-- **User Interface:** The final version of the app presents a user-friendly interface, enabling easy navigation for users.
-- **Service Browsing:** Allows for efficient browsing of services available on campus.
-- **Booking Functionalities:** Includes a seamless booking system for users to schedule services conveniently.
-- **Review System:** Integrated review and feedback mechanism.
-
-### Current Features
-
 1. **User Profile Creation**
-   - Consumer Profile: Allows consumers to create personalized profiles, including preferences and history.
+   - Consumer Profile: Allows consumers to create personalized profiles to access available services.
    - Business Profile: Enables businesses to set up profiles showcasing their services.
 
-2. **Login Page**
+2. **Login**
    - Security: Secure login mechanism with encrypted credentials.
-   - User Experience: Simplified login process with password recovery options.
 
 3. **Favorites System**
    - Functionality: Users can mark and manage their favorite services.
 
 4. **Booking System**
-   - Utility: Facilitates the booking of services with real-time availability checks.
+   - Utility: Facilitates the booking of services with both placing and canceling orders.
 
 5. **Rate and Review**
-   - Engagement: Allows users to rate and review services.
+   - Engagement: Allows users to rate and review services, as well as view past reviews and ratings.
 
 6. **Business Information**
-   - Content: Displays detailed information about businesses.
+   - Content: Displays detailed information about businesses such as location, description, and average ratings.
 
 7. **Map Integration**
    - Navigation: Map button to guide users to the business location.
@@ -90,24 +84,51 @@ The app was conceptualized to bridge the gap between student business owners see
 12. **Enhanced User Interface**
     - Design Overhaul: Planning a more intuitive and aesthetically pleasing UI.
 
+13. **Reset Options**
+    - User Experience: Simplified login process with password recovery options.
+   
+14. **Profile Picture**
+    - Functionality: Adds more of a customizable element to both business and consumer profiles.
+
 ### Invitation for Feedback
 
 We welcome you to download the source code, explore the app, and provide your valuable feedback. Your insights are crucial for us to enhance the app’s functionality and user experience.
 
 ### Challenges and Resolutions
-#### Balancing Aesthetics with Functionality in UI Design
 
-- **Problem:** Creating a UI that was both aesthetically pleasing and functional.
-- **Solution:** Addressed through design iterations, user feedback sessions, and testing, focusing on balancing user experience with interface attractiveness.
+#### Understanding Multiple Programming Languages
 
-#### Ensuring Database Security
+##### Challenge: 
+- Grappling with the syntax and structure of PHP, SQL, and Kotlin simultaneously, especially with no prior experience in any of these languages.
 
-- **Problem:** Maintaining the security and integrity of the app’s database.
-- **Solution:** Implemented advanced security measures, including data encryption and secure access protocols, complemented by regular security audits.
+##### Resolution:
+- Dedicated significant time to study and practice each language separately.
+- Utilized online resources and sought guidance from my mentor, Professor Herve.
+- Applied the knowledge practically in the development process, reinforcing learning through hands-on application.
 
-#### Iterative Testing and Feedback Incorporation
+#### Designing the Database
 
-- **Approach:** Tackled challenges through an iterative development process, incorporating regular testing and user feedback to refine the app and exceed user expectations.
+##### Challenge:
+- Conceptualizing the best way to design the database to efficiently support the app's functionality and future scalability.
+
+##### Resolution:
+- Researched various database design models and best practices.
+- Experimented with different schema designs and consulted with academic peers and Professor Herve.
+- Finalized a design that balanced efficiency with flexibility, allowing for future enhancements.
+
+#### Balancing Functionality with UI Design
+
+##### Challenge:
+- Prioritizing functionality led to limited time allocation for UI development, impacting the aesthetic aspect of the app.
+
+##### Resolution:
+- Adopted a phased development approach, where initial focus was on core functionalities.
+- Scheduled dedicated time to revisit and enhance the UI, incorporating user feedback for improvements.
+- Planned for ongoing UI enhancements in future updates.
+
+## Reflection on Challenges
+
+Each challenge encountered during the development process provided a unique learning opportunity, contributing significantly to my growth as a developer. These challenges pushed me to explore new solutions, think critically, and adapt my approach. The experience gained from overcoming these hurdles has not only enhanced the functionality of the app but also enriched my skill set and problem-solving capabilities.
 
 ## Skill Development
 
