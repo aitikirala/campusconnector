@@ -1,4 +1,4 @@
-# UMD Campus Services App Development Journey
+# Campus Connector - A Guide and Reflection
 
 ## Introduction
 
