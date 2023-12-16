@@ -8,9 +8,9 @@ Over the past three months, I embarked on an ambitious journey to develop an app
 
 ### Comparative Analysis with Existing Platforms
 
-TaskRabbit and Craigslist are two prominent platforms in the domain of service promotion and provision. TaskRabbit is a mobile and online marketplace that matches freelance labor with local demand, allowing consumers to find immediate help with everyday tasks, including cleaning, moving, and handyman work. Craigslist is a vast online classified ads website, where people can find a variety of services, buy and sell items, and seek housing.
+TaskRabbit and Craigslist are two prominent platforms in the domain of service promotion and provision. TaskRabbit is a mobile and online marketplace that matches freelance labor with local demand, allowing consumers to find immediate help with everyday tasks, including cleaning, moving, and handyman work. Craigslist is a vast online classified ads website, where people can find services, buy and sell items, and seek housing.
 
-However, these platforms have a broad focus and are not tailored to the unique dynamics of a university campus. They cater to a general audience and do not specifically address the challenges faced by college students, such as limited transportation options and the need for convenient access to services within walking distance.
+However, these platforms have a broad focus and are not tailored to the unique dynamics of a university campus.
 
 ### Identifying the Campus-Specific Needs
 
