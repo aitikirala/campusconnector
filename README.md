@@ -39,7 +39,7 @@ The app was conceptualized to bridge the gap between student business owners see
 
 - **Technology Used:** Key tools and languages employed included Kotlin for app development, SQL for database management, and PHP for server-side scripting.
 - **Environment:** Android Studio IDE.
-- **Mentor Consultations:** Regular sessions with Professor Herve provided invaluable insights.
+- **Mentor Consultations:** Regular sessions with Professor Herve provided immense insight and provided direction after each milestone.
 
 ## Outcome of the Study
 
@@ -90,9 +90,6 @@ The app was conceptualized to bridge the gap between student business owners see
 14. **Profile Picture**
     - Functionality: Adds more of a customizable element to both business and consumer profiles.
 
-### Invitation for Feedback
-
-We welcome you to download the source code, explore the app, and provide your valuable feedback. Your insights are crucial for us to enhance the app’s functionality and user experience.
 
 ### Challenges and Resolutions
 
@@ -138,10 +135,16 @@ This project significantly expanded my knowledge in programming languages, UI de
 
 This journey was not just about developing an app but also about personal and professional growth. While the initial lack of knowledge in critical areas posed a significant challenge, the support from my mentor and the rigorous academic curriculum provided a strong foundation for learning and development. The process taught me the importance of perseverance, strategic planning, and adaptability.
 
-Despite setbacks in areas like UI development, the project was a testament to the power of determination and the value of hands-on learning. The app now stands as a symbol of bridging gaps within the UMD community and fostering an environment where entrepreneurship and student needs coexist harmoniously.
+Despite setbacks in areas like UI development, the project was a testament to the power of determination and the value of hands-on learning. The app now is a representation of bridging gaps within the UMD community and fostering an environment where entrepreneurship and student needs coexist harmoniously.
 
 As I conclude this report, I am not just presenting a completed project but sharing a significant chapter of my academic and personal growth story. This journey at UMD has been enriching and transformative, shaping me into a more competent and confident individual ready to tackle future challenges in the tech world.
 
 ## Conclusion
 
-The UMD Campus Services App is a comprehensive platform designed with the needs of the university community in mind. Its diverse features not only facilitate the connection between service providers and users but also ensure a safe, efficient, and enjoyable experience. The app is a testament to the effective application of technology in enhancing campus life and fostering a spirit of entrepreneurship among students.
+Campus Connector is a comprehensive platform designed with the needs of the university community in mind. Its diverse features not only facilitate the connection between service providers and users but also ensure a safe, efficient, and enjoyable experience. The app shows the power of technology in enhancing campus life and fostering a spirit of entrepreneurship among students.
+
+### Invitation for Feedback
+
+We welcome you to download the source code, explore the app, and provide feedback. Your insights are crucial to enhance the app’s functionality and user experience.
+
+https://docs.google.com/forms/d/e/1FAIpQLSdAm5yAVfhlH95zMQzMm_P1pp5WebKwjlv-yqHnBt5RMVLMLA/viewform?usp=sharing
