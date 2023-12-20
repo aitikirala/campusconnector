@@ -67,7 +67,7 @@ class BusinessSearch : AppCompatActivity(), UpdateViewInterface {
             }
 
             override fun onQueryTextChange(newText: String): Boolean {
-                // Text has changed, apply any filter logic if needed
+                filterAndUpdateViewWithJson(newText)
                 return false
             }
         })
