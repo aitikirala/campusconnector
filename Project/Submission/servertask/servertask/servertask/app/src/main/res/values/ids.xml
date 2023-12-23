@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="map" type="id" />
+    <item name="tvGreeting" type="id" />
+    <item name="nav_host_fragment" type="id" />
+    <item name="addressInput" type="id" />
+    <item name="AddressEditText" type="id" />
+</resources>

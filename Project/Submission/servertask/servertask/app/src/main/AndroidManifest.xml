@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Servertask"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!-- SplashActivity with the intent-filter as it's the new launcher activity -->
+        <activity android:name=".Start.SplashActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MainActivity without the intent-filter -->
+        <activity android:name=".Consumer.ConsumerActivity" android:exported="true"></activity>
+        <activity
+            android:name=".OrderConfirmationDialogActivity"
+            android:label="Order Confirmation"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert">
+    </activity>
+
+
+    <activity android:name=".Business.BusinessProfileActivity" android:exported="true"></activity>
+        <activity android:name=".Consumer.ViewServicesActivity" android:exported="true"></activity>
+        <activity android:name=".Business.BusUserHome" android:exported="true"></activity>
+        <activity android:name=".Business.OrdersReceivedActivity" android:exported="true"></activity>
+
+
+        <activity android:name=".Consumer.OrdersSentActivity" android:exported="true"></activity>
+        <activity android:name=".Consumer.ConsumerProfileActivity" android:exported="true"></activity>
+        <activity android:name=".Consumer.ListFavActivity" android:exported="true"></activity>
+        <activity android:name=".Consumer.RatingActivity" android:exported="true"></activity>
+
+        <activity android:name=".Consumer.BusinessDetailActivity" android:exported="true"></activity>
+        <activity android:name=".Start.LoginActivity" android:exported="true"></activity>
+        <activity android:name=".Consumer.ConsUserHome" android:exported="true"></activity>
+        <activity android:name=".Start.WelcomeActivity"/>
+
+        <activity android:name=".Consumer.BusinessSearch"></activity>
+        <activity android:name=".Start.SignUpActivity" android:exported="true"></activity>
+
+        <activity android:name=".Business.BusinessActivity" android:exported="true"></activity>
+    </application>
+
+</manifest>
